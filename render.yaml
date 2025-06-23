@@ -2,11 +2,11 @@
 services:
   # A Docker web service
   - type: web
-    name: SMD-Filter-Bot
+    name: AutoFilterBot
     env: python
     startCommand: python3 bot.py
     buildCommand: pip3 install -U -r requirements.txt
-    repo: https://github.com/SMDxTG/SMD-Filter-Bot.git # optional
+    repo: https://github.com/SMDxTG/AutoFilterBot.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     branch: SMD_BOTz # optional (defaults to master)
