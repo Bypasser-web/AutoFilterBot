@@ -128,7 +128,7 @@ URL = environ.get("URL", "")
 # Start Command Reactions
 REACTIONS = ["🦋", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"] #don't add any emoji because tg not support all emoji reactions
 
-#Multi Db option don't Use Then single db use it it Most of power full and ultimete speed result
+#Multi Db option don't Use Then single db use it it Most of power full and ultimate speed result
 #iTS ALL Req For @SMD_BOTz
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
 O_DB_URI = environ.get('O_DB_URI', "")   # This Db Is For Other Data Store
