@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="https://graph.org/file/dd619f3bd2db3d0956932.jpg" alt="SMD Logo">
+  <img src="https://graph.org/file/9d71a6617b0113ab2fc5c-7b0df068514170f2dc.jpg" alt="SVUNIVERSE LOGO">
 </p>
 <h2 align="center">
   「 sᴍᴅ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ 」
