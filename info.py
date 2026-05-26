@@ -8,7 +8,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23209524'))
 API_HASH = environ.get('API_HASH', '3042159268b8b90557a5e2b8ab346843')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8904239261:AAFJ7BcYkgHpreVHa4eRYMd8559U9X7yHgk")
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
 PICS = (environ.get('PICS', 'https://graph.org/file/9d71a6617b0113ab2fc5c-7b0df068514170f2dc.jpg')).split()   
@@ -23,7 +23,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL)) # This Channel Is For Index Request
 reqst_channel = environ.get('REQST_CHANNEL', '') # This Channel Is For When User Request Any File Name With command or hashtag like - /request or #request
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None 
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '') # This Is Your Bot Support Group Id , Here Bot Will Not Give File Because This Is Support Group.
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '8904239261') # This Is Your Bot Support Group Id , Here Bot Will Not Give File Because This Is Support Group.
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]  # For Multiple Id Use One Space Between Each.# This Channel Is For Delete Index File, Forward Your File In This Channel Which You Want To Delete Then Bot Automatically Delete That File From Database.
 
@@ -128,7 +128,7 @@ URL = environ.get("URL", "")
 REACTIONS = ["🦋", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"] #don't add any emoji because tg not support all emoji reactions
 
 #Multi Db option don't Use Then single db use it it Most of power full and ultimate speed result
-#iTS ALL Req For @SMD_BOTz
+#iTS ALL Req For @vinay_yadav_166
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
 O_DB_URI = environ.get('O_DB_URI', "")   # This Db Is For Other Data Store
 F_DB_URI = environ.get('F_DB_URI', "")   # This Db Is For File Data Store
